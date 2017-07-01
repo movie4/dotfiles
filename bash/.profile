@@ -14,7 +14,7 @@ export EDITOR=vim
 . ~/.dotfiles/bash/.python
 . ~/.dotfiles/bash/.rvm
 
-source ~/.bash_powerline.sh
+source ~/.dotfiles/bash/.bash_powerline.sh
 
 # net.core
 export ASPNETCORE_ENVIRONMENT="Development"
