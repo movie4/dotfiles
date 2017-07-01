@@ -1,0 +1,53 @@
+# ls aliases
+alias ll='ls -alG'
+alias la='ls -A'
+alias l='ls -CF'
+
+# dir aliases
+alias wk="cd /Volumes/Work/ITCase"
+
+# recursively delete .DS_Store and *.pyc
+alias rmdsstore="find . -name '*.DS_Store' -type f -ls -delete"
+alias rmpyc="find . -name '*.pyc' -type f -ls -delete"
+alias rmpycache="find . -type d -name '__pycache__' -print0 | xargs -0 rm -rf"
+
+
+# git shortcuts
+alias gs="git status"
+alias ga="git add -A ."
+alias gc="git commit"
+alias gb="git branch"
+alias gd="git diff"
+alias gco="git checkout"
+alias gp="git push"
+alias gl="git pull"
+alias gt="git tag"
+alias gm="git merge"
+alias gf="git fetch"
+alias gg="git log --graph --pretty=format:'%C(bold red)%h%Creset -%C(bold yellow)%d%Creset %s %C(bold green)(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+alias gcp="git cherry-pick"
+alias grm="rm .git/index.lock"
+
+# git flow
+alias gffs="git flow feature start"
+alias gfff="git flow feature finish"
+
+
+# pull all itcase-*
+alias itcase-pull-modules="ls | grep 'itcase-*' | xargs -I{} git -C {} pull --all"
+alias itcase-show-tags="ls | grep 'itcase-*' | xargs -I{} git -C {} describe --abbrev=0 --tags"
+
+# react-native shortcuts
+alias rna="react-native run-android"
+alias rni="react-native run-ios"
+alias rmlock="find . -name '*.lock' -type f -ls -delete"
+
+# django
+alias pmr="python manage.py runserver"
+
+# ssh
+alias ssh-s2="ssh -A web@193.107.238.41"
+alias ssh-erta="ssh -A web@185.93.109.153"
+alias ssh-pivlavka="ssh -A web@193.107.238.53"
+alias ssh-home-pizza="ssh -A web@185.93.110.27"
+alias ssh-fresh-support="ssh -A web@185.41.161.250"

@@ -1,0 +1,6 @@
+# android
+export ANDROID_HOME=~/Library/Android/sdk
+export PATH="~/Library/Android/sdk/tools:~/Library/Android/sdk/platform-tools:${PATH}"
+
+# ios
+alias simulator="open /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app"
