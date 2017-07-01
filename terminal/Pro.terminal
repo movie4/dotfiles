@@ -52,12 +52,22 @@
 	TlNPYmplY3RfEA9OU0tleWVkQXJjaGl2ZXLRFxhUcm9vdIABCBEaIy0yNztBSFBdZHBy
 	dHmEjZWYobO2uwAAAAAAAAEBAAAAAAAAABkAAAAAAAAAAAAAAAAAAAC9
 	</data>
+	<key>ShouldRestoreContent</key>
+	<true/>
+	<key>ShowActiveProcessArgumentsInTitle</key>
+	<true/>
+	<key>ShowActiveProcessInTitle</key>
+	<true/>
+	<key>ShowActivityIndicatorInTab</key>
+	<true/>
 	<key>ShowCommandKeyInTitle</key>
 	<true/>
 	<key>ShowShellCommandInTitle</key>
 	<false/>
 	<key>ShowTTYNameInTitle</key>
 	<false/>
+	<key>ShowTerminalInDockIcon</key>
+	<true/>
 	<key>ShowWindowSettingsNameInTitle</key>
 	<false/>
 	<key>TextBoldColor</key>
