@@ -44,10 +44,3 @@ alias rmlock="find . -name '*.lock' -type f -ls -delete"
 
 # django
 alias pmr="python manage.py runserver"
-
-# ssh
-alias ssh-s2="ssh -A web@193.107.238.41"
-alias ssh-erta="ssh -A web@185.93.109.153"
-alias ssh-pivlavka="ssh -A web@193.107.238.53"
-alias ssh-home-pizza="ssh -A web@185.93.110.27"
-alias ssh-fresh-support="ssh -A web@185.41.161.250"

@@ -1,5 +1,8 @@
+# python
+export PATH="/usr/local/opt/python/libexec/bin:$PATH"
+
 # virtualenv
-export VIRTUALENVWRAPPER_PYTHON="/usr/local/bin/python"
+export VIRTUALENVWRAPPER_PYTHON="/usr/local/opt/python/libexec/bin/python"
 source /usr/local/bin/virtualenvwrapper.sh
 
 # pip
