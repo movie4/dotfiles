@@ -2,7 +2,7 @@
 	email = arkadiy@bk.ru
 	name = Arkadiy Zamaraev
 [core]
-	excludesfile = /Users/Arkasha/.gitignore_global
+	excludesfile = /Users/Arkasha/.dotfiles/.gitignore_global
 [gui]
 	encoding = utf-8
 [push]

@@ -1,6 +1,9 @@
 # android
-export ANDROID_HOME=~/Library/Android/sdk
-export PATH="~/Library/Android/sdk/tools:~/Library/Android/sdk/platform-tools:${PATH}"
+export ANDROID_HOME=$HOME/Library/Android/sdk
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+
+function emulator { cd "$(dirname "$(which emulator)")" && ./emulator "$@"; }
 
 # ios
 alias simulator="open /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app"
