@@ -11,6 +11,8 @@ alias rmdsstore="find . -name '*.DS_Store' -type f -ls -delete"
 alias rmpyc="find . -name '*.pyc' -type f -ls -delete"
 alias rmpycache="find . -type d -name '__pycache__' -print0 | xargs -0 rm -rf"
 
+# reload
+alias reload_bash="source ~/.bash_profile; echo '~/.bash_profile reloaded.'"
 
 # git shortcuts
 alias gs="git status"
@@ -36,8 +38,6 @@ alias gfff="git flow feature finish"
 # pull all itcase-*
 alias itcase-pull-modules="ls | grep 'itcase-*' | xargs -I{} git -C {} pull --all"
 alias itcase-show-tags="ls | grep 'itcase-*' | xargs -I{} git -C {} describe --abbrev=0 --tags"
-alias itcase-update-stylelint="ls | grep 'itcase-*' | xargs -I{} git archive --remote=git@bitbucket.org:itcase-dev/gulp-tasks.git master .stylelintrc | tar -xv"
-
 
 # react-native shortcuts
 alias rna="react-native run-android"
@@ -53,4 +53,8 @@ alias ssh-erta="ssh -A web@185.93.109.153"
 alias ssh-pivlavka="ssh -A web@193.107.238.53"
 alias ssh-home-pizza="ssh -A web@185.93.110.27"
 alias ssh-fresh-support="ssh -A web@185.41.161.250"
-alias ssh-cit="ssh -A web@193.107.238.66"
+alias ssh-cit="ssh -A web@94.154.14.184"
+alias ssh-santeh="ssh -A web@94.154.14.204"
+alias ssh-npovostio="ssh -A web@185.93.109.172"
+alias ssh-trio="ssh -A web@94.154.14.16"
+alias ssh-undertable="ssh -A itcase@192.168.1.21"

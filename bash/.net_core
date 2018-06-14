@@ -1,0 +1,2 @@
+# net.core
+export ASPNETCORE_ENVIRONMENT="Development"

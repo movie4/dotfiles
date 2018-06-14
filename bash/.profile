@@ -10,14 +10,12 @@ export EDITOR=vim
 . ~/.dotfiles/bash/.aliases
 . ~/.dotfiles/bash/.docker
 . ~/.dotfiles/bash/.mobile
+. ~/.dotfiles/bash/.net_core
 . ~/.dotfiles/bash/.nvm
 . ~/.dotfiles/bash/.python
 . ~/.dotfiles/bash/.rvm
 
 source ~/.dotfiles/bash/.bash_powerline.sh
-
-# net.core
-export ASPNETCORE_ENVIRONMENT="Development"
 
 # brew
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
@@ -27,10 +25,5 @@ fi
 # gulp
 eval "$(gulp --completion=bash)"
 
-# edit this folder
-alias dot="cd ~/.dotfiles"
-
-# reload
-alias reload_bash="source ~/.bash_profile; echo '~/.bash_profile reloaded.'"
 
 echo 'OSX profile loaded.'
