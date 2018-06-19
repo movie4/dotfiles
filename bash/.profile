@@ -25,5 +25,4 @@ fi
 # gulp
 eval "$(gulp --completion=bash)"
 
-
 echo 'OSX profile loaded.'
