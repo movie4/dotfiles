@@ -1,3 +1,6 @@
+gitlistobjectbysize.sh
+git_find_big.sh
+
 # Compiled Python files
 __pycache__
 *.pyc

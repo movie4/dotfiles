@@ -34,6 +34,9 @@ alias grm="rm .git/index.lock"
 alias gffs="git flow feature start"
 alias gfff="git flow feature finish"
 
+# rm
+
+alias rmmap="find . -name "*.css.map" -exec rm {} \; | find . -name "*.js.map" -exec rm {} \;"
 
 # pull all itcase-*
 alias itcase-pull-modules="ls | grep 'itcase-*' | xargs -I{} git -C {} pull --all"
