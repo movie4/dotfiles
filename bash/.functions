@@ -1,0 +1,14 @@
+convertvideo() {
+    filename=$(basename -- $1)
+    extension="${filename##*.}"
+    filename="${filename%.*}"
+
+    #convert .mov to .mp4
+    ffmpeg -i $1 -vcodec h264 -acodec mp2 $filename.mp4
+    #convert .mov to .webm
+    ffmpeg -i $1 -c:v libvpx -crf 10 -b:v 1M -c:a libvorbis $filename.webm
+    #convert .mov to .ogg
+    ffmpeg -i $1 -codec:v libtheora -qscale:v 7 -codec:a libvorbis -qscale:a 5 $filename.ogg
+}
+
+

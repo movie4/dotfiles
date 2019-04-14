@@ -15,6 +15,8 @@ export EDITOR=vim
 . ~/.dotfiles/bash/.python
 . ~/.dotfiles/bash/.rvm
 
+. ~/.dotfiles/bash/.functions
+
 source ~/.dotfiles/bash/.bash_powerline.sh
 
 # brew
