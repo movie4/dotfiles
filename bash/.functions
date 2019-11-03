@@ -3,12 +3,12 @@ convertvideo() {
     extension="${filename##*.}"
     filename="${filename%.*}"
 
-    #convert .mov to .mp4
-    ffmpeg -i $1 -vcodec h264 -acodec mp2 $filename.mp4
-    #convert .mov to .webm
-    ffmpeg -i $1 -c:v libvpx -crf 10 -b:v 1M -c:a libvorbis $filename.webm
-    #convert .mov to .ogg
-    ffmpeg -i $1 -codec:v libtheora -qscale:v 7 -codec:a libvorbis -qscale:a 5 $filename.ogg
+    #mp4
+    ffmpeg -i $1 -vcodec h264 -acodec aac -strict -2 $filename.mp4
+    #webm
+    ffmpeg -an -i $1 -c:v libvpx-vp9 -b:v 1M $filename.webm
+    #ogv
+    ffmpeg -an -i $1 -c:v libtheora -q:v 7 $filename.ogv
 }
 
 
