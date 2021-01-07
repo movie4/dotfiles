@@ -1,3 +1,6 @@
+# bash
+alias bh='history | grep'
+
 # ls aliases
 alias ll='ls -alG'
 alias la='ls -A'
@@ -63,3 +66,9 @@ alias ssh-undertable="ssh -A itcase@192.168.1.21"
 alias ssh-panamera="ssh -A c3394@91.201.52.245"
 alias ssh-algorithm="ssh -A c10574@91.201.52.237"
 alias ssh-tsk-hr="ssh -A web@45.86.181.180"
+alias ssh-mr-green="ssh -A  web@185.93.109.235"
+alias ssh-bioross="ssh -A c16833@91.201.52.237"
+alias ssh-uralsertif="ssh -A web@45.86.182.232"
+alias ssh-pst="ssh -A web@213.189.220.212"
+alias ssh-baker-sweeet="ssh -A web@213.189.216.74"
+alias ssh-attestation="ssh -A web@213.189.219.145"

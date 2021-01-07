@@ -1,1 +1,16 @@
-backstopjs bower create-react-app create-react-native-app gulp-cli http-server jsxhint mocha modernizr npm-check-updates react-native-cli react-native-git-upgrade rnpm svgo webpack webpack-cli webpack-dev-server yo
+backstopjs
+bower
+gulp-cli
+htmlhint
+http-server
+jsxhint
+mocha
+modernizr
+prettier
+npm-check-updates
+react-native-cli
+svgo
+webpack
+webpack-cli
+webpack-dev-server
+yo

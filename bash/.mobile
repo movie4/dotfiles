@@ -7,7 +7,11 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
 alias avdmanager=$ANDROID_HOME/tools/bin/avdmanager
 alias sdkmanager=$ANDROID_HOME/tools/bin/sdkmanager
 
-function emulator { cd "$(dirname "$(which emulator)")" && ./emulator "$@"; }
+export ANDROID_SDK=$HOME/Library/Android/sdk
+export PATH=$ANDROID_SDK/emulator:$ANDROID_SDK/tools:$PATH
 
 # ios
 alias simulator="open /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app"
+
+# watchman
+export PATH=$PATH:/usr/local/bin/watchman

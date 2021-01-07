@@ -1,5 +1,4 @@
 joe
 pyflakes
 virtualenv
-virtualenv-clone
 virtualenvwrapper

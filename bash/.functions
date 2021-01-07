@@ -10,5 +10,3 @@ convertvideo() {
     #ogv
     ffmpeg -an -i $1 -c:v libtheora -q:v 7 $filename.ogv
 }
-
-
