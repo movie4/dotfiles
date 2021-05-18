@@ -8,7 +8,6 @@ export PATH="$PATH:`yarn global bin`"
 export EDITOR=vim
 
 . ~/.dotfiles/bash/.aliases
-. ~/.dotfiles/bash/.docker
 . ~/.dotfiles/bash/.mobile
 . ~/.dotfiles/bash/.net_core
 . ~/.dotfiles/bash/.nvm
